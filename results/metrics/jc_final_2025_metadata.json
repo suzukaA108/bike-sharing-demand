@@ -1,0 +1,87 @@
+{
+  "evaluation": "Frozen final holdout confirmation; no tuning after evaluation",
+  "holdout_pristine": false,
+  "holdout_caveat": "An earlier exploratory script evaluated and displayed 2025 metrics; those values were excluded from tuning, but the holdout is not a pristine blind test.",
+  "train_period": [
+    "2024-01-01T05:00:00Z",
+    "2025-01-01T05:00:00Z"
+  ],
+  "test_period": [
+    "2025-01-01T05:00:00Z",
+    "2026-01-01T05:00:00Z"
+  ],
+  "common_scored_rows": 8590,
+  "candidate_predictions": [
+    "naive_previous_hour",
+    "naive_previous_week",
+    "linear_regression",
+    "random_forest",
+    "linear_regression_weather",
+    "random_forest_weather",
+    "mlp",
+    "lstm_168h"
+  ],
+  "deep_model_epochs_from_development_folds": {
+    "mlp": 20,
+    "lstm_168h": 26
+  },
+  "device": "cuda",
+  "metrics": [
+    {
+      "model": "random_forest",
+      "n": 8590,
+      "MAE": 14.95810374823889,
+      "RMSE": 23.60040802413588,
+      "R2": 0.9428456265567168
+    },
+    {
+      "model": "random_forest_weather",
+      "n": 8590,
+      "MAE": 15.105847599570913,
+      "RMSE": 23.82935213629062,
+      "R2": 0.9417313554923898
+    },
+    {
+      "model": "lstm_168h",
+      "n": 8590,
+      "MAE": 15.125755635504769,
+      "RMSE": 22.559564498310717,
+      "R2": 0.9477757913039436
+    },
+    {
+      "model": "mlp",
+      "n": 8590,
+      "MAE": 16.01027953830939,
+      "RMSE": 24.479869478526723,
+      "R2": 0.9385065808949719
+    },
+    {
+      "model": "linear_regression_weather",
+      "n": 8590,
+      "MAE": 21.718102663433555,
+      "RMSE": 31.40354124715152,
+      "R2": 0.8988029869423084
+    },
+    {
+      "model": "linear_regression",
+      "n": 8590,
+      "MAE": 21.8493321425959,
+      "RMSE": 32.44672017968194,
+      "R2": 0.891968090597365
+    },
+    {
+      "model": "naive_previous_week",
+      "n": 8590,
+      "MAE": 29.72479627473807,
+      "RMSE": 48.74595711721716,
+      "R2": 0.7561697132759404
+    },
+    {
+      "model": "naive_previous_hour",
+      "n": 8590,
+      "MAE": 35.12188591385332,
+      "RMSE": 52.066775652922225,
+      "R2": 0.7218162143263108
+    }
+  ]
+}

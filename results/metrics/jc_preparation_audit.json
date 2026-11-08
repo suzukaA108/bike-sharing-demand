@@ -1,0 +1,141 @@
+{
+  "source_archives": 24,
+  "raw_rows": 2055155,
+  "unique_ids_after_exclusions": 2055121,
+  "duplicate_rows_skipped": 14,
+  "conflicting_ids_excluded": 10,
+  "conflicting_rows_excluded": 20,
+  "missing_ride_id_rows": 0,
+  "invalid_started_at_rows": 0,
+  "ambiguous_dst_ride_rows_excluded": 151,
+  "nonexistent_dst_ride_rows_excluded": 0,
+  "hourly_index_rows": 17544,
+  "ambiguous_dst_target_hours_unscorable": 4,
+  "scorable_target_hours": 17540,
+  "zero_departure_hours": 74,
+  "monthly": {
+    "2024-01": {
+      "observed_hours": 744,
+      "zero_hours": 9,
+      "rides": 50661.0
+    },
+    "2024-02": {
+      "observed_hours": 696,
+      "zero_hours": 8,
+      "rides": 55613.0
+    },
+    "2024-03": {
+      "observed_hours": 743,
+      "zero_hours": 2,
+      "rides": 65581.0
+    },
+    "2024-04": {
+      "observed_hours": 720,
+      "zero_hours": 5,
+      "rides": 79116.0
+    },
+    "2024-05": {
+      "observed_hours": 744,
+      "zero_hours": 2,
+      "rides": 97469.0
+    },
+    "2024-06": {
+      "observed_hours": 720,
+      "zero_hours": 1,
+      "rides": 111104.0
+    },
+    "2024-07": {
+      "observed_hours": 744,
+      "zero_hours": 0,
+      "rides": 112440.0
+    },
+    "2024-08": {
+      "observed_hours": 744,
+      "zero_hours": 0,
+      "rides": 106456.0
+    },
+    "2024-09": {
+      "observed_hours": 720,
+      "zero_hours": 0,
+      "rides": 115554.0
+    },
+    "2024-10": {
+      "observed_hours": 744,
+      "zero_hours": 0,
+      "rides": 118309.0
+    },
+    "2024-11": {
+      "observed_hours": 719,
+      "zero_hours": 2,
+      "rides": 85222.0
+    },
+    "2024-12": {
+      "observed_hours": 744,
+      "zero_hours": 5,
+      "rides": 54831.0
+    },
+    "2025-01": {
+      "observed_hours": 744,
+      "zero_hours": 5,
+      "rides": 50611.0
+    },
+    "2025-02": {
+      "observed_hours": 672,
+      "zero_hours": 6,
+      "rides": 45257.0
+    },
+    "2025-03": {
+      "observed_hours": 743,
+      "zero_hours": 3,
+      "rides": 73290.0
+    },
+    "2025-04": {
+      "observed_hours": 720,
+      "zero_hours": 6,
+      "rides": 81557.0
+    },
+    "2025-05": {
+      "observed_hours": 744,
+      "zero_hours": 2,
+      "rides": 93232.0
+    },
+    "2025-06": {
+      "observed_hours": 720,
+      "zero_hours": 0,
+      "rides": 97128.0
+    },
+    "2025-07": {
+      "observed_hours": 744,
+      "zero_hours": 1,
+      "rides": 107713.0
+    },
+    "2025-08": {
+      "observed_hours": 744,
+      "zero_hours": 2,
+      "rides": 108456.0
+    },
+    "2025-09": {
+      "observed_hours": 720,
+      "zero_hours": 2,
+      "rides": 116071.0
+    },
+    "2025-10": {
+      "observed_hours": 744,
+      "zero_hours": 1,
+      "rides": 104207.0
+    },
+    "2025-11": {
+      "observed_hours": 719,
+      "zero_hours": 3,
+      "rides": 76620.0
+    },
+    "2025-12": {
+      "observed_hours": 744,
+      "zero_hours": 9,
+      "rides": 48472.0
+    }
+  },
+  "zero_policy": "Zero for hours in fully present monthly archives; possible source outages remain a limitation.",
+  "duplicate_policy": "Exclude every ID with conflicting started_at; otherwise keep first occurrence in sorted archive/member order.",
+  "dst_policy": "Localize source wall times to America/New_York; discard ambiguous/nonexistent trip timestamps. Mark both fall-back UTC target hours unscorable."
+}

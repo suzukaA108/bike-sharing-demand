@@ -1,0 +1,17 @@
+data/raw/
+data/processed/
+data/source_probes/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.conda/
+.vscode/
+/untitled.txt
+*.pt
+*.pth
+.env
+results/notebook_runs/
+results/metrics/*predictions*.csv
+results/metrics/jc_pilot_hourly.csv
+results/metrics/jc_full_audit.json

@@ -1,0 +1,32 @@
+{
+  "month": "2025-01",
+  "departure_hours": 744,
+  "weather_hours_in_api_response": 768,
+  "matched_weather_hours": 744,
+  "missing_weather_by_column": {
+    "temperature_2m": 0,
+    "relative_humidity_2m": 0,
+    "precipitation": 0,
+    "wind_speed_10m": 0
+  },
+  "weather_metadata": {
+    "request": {
+      "latitude": 40.73,
+      "longitude": -74.04,
+      "start_date": "2025-01-01",
+      "end_date": "2025-02-01",
+      "hourly": "temperature_2m,relative_humidity_2m,precipitation,wind_speed_10m",
+      "timezone": "UTC"
+    },
+    "resolved_latitude": 40.738136,
+    "resolved_longitude": -74.04254,
+    "hourly_units": {
+      "time": "iso8601",
+      "temperature_2m": "\u00b0C",
+      "relative_humidity_2m": "%",
+      "precipitation": "mm",
+      "wind_speed_10m": "km/h"
+    }
+  },
+  "note": "Historical weather may be reanalysis; availability at prediction time is unverified"
+}

@@ -1,0 +1,103 @@
+{
+  "source": "https://s3.amazonaws.com/tripdata/index.html",
+  "file_count": 24,
+  "compressed_bytes": 72529062,
+  "archives": {
+    "JC-202401-citibike-tripdata.csv.zip": {
+      "bytes": 1883296,
+      "sha256": "d59d149f200fb81e204099afb0f76f1b02267bb2d605e92309e6f9974b176e15"
+    },
+    "JC-202402-citibike-tripdata.csv.zip": {
+      "bytes": 1908683,
+      "sha256": "454371fb4d884624d07de8e09387ab0f68422dbd046c76da5a7036bc49661c1a"
+    },
+    "JC-202403-citibike-tripdata.csv.zip": {
+      "bytes": 2308314,
+      "sha256": "cd4233c47ff35670fd051a1f416f48362b348fccc8d27e9f0e67e8c3d1328d5b"
+    },
+    "JC-202404-citibike-tripdata.csv.zip": {
+      "bytes": 2810050,
+      "sha256": "19449f31508b897e5fb62da55c2024ed41cac97096626b0cbad2ae313647d430"
+    },
+    "JC-202405-citibike-tripdata.csv.zip": {
+      "bytes": 3238096,
+      "sha256": "7bd6a70470e949134e729459d4d2041dd1ff34ea0439613a6568d1ca573603a9"
+    },
+    "JC-202406-citibike-tripdata.csv.zip": {
+      "bytes": 4413867,
+      "sha256": "45570371fa2d06670ebee12e3c7ce0da6538cfcd667585bdd75806dd6d341863"
+    },
+    "JC-202407-citibike-tripdata.csv.zip": {
+      "bytes": 4198201,
+      "sha256": "fdd4dd1eadfd87e7bdc47635a31f9c8f4a0e5752f7f8b95f4d8a2fd68617ecab"
+    },
+    "JC-202408-citibike-tripdata.csv.zip": {
+      "bytes": 3530848,
+      "sha256": "ab16afaaaf608b8c2392ff9be547dc77059fd65a990122bad7ebc62e8ad8a141"
+    },
+    "JC-202409-citibike-tripdata.csv.zip": {
+      "bytes": 4140046,
+      "sha256": "9bdf20c1a16ae41b7c4a9f70554166b847703c112e2ddce63d80c6c37ea65ff3"
+    },
+    "JC-202410-citibike-tripdata.csv.zip": {
+      "bytes": 4028203,
+      "sha256": "ba2b2431e618047f4092a48931f914b8abe53c0d053f366f2a4e2e1850feb23c"
+    },
+    "JC-202411-citibike-tripdata.csv.zip": {
+      "bytes": 2801836,
+      "sha256": "7f9956f56cdbf7d1a5deb6d06eb441a20c8afeca6a207c58fb8ab681d2a0e27a"
+    },
+    "JC-202412-citibike-tripdata.csv.zip": {
+      "bytes": 2012198,
+      "sha256": "857869b3dc4ef85b9a9f4a6e13f9092070835a0a7b12a5140da652688ee9c530"
+    },
+    "JC-202501-citibike-tripdata.csv.zip": {
+      "bytes": 1742971,
+      "sha256": "85c2011b564d7b76653f464380ac1d61a93cd6e2abe1a46d103b58c447bb0ed4"
+    },
+    "JC-202502-citibike-tripdata.csv.zip": {
+      "bytes": 1608676,
+      "sha256": "0a7b88d9e1a4ba627f4b2b02739a62790bf35335151adb6658e32355dcd5b234"
+    },
+    "JC-202503-citibike-tripdata.csv.zip": {
+      "bytes": 2691428,
+      "sha256": "b26c1a82082d2d24c874b514de0e2b99c846f3c31492ee15441d5fae3aef0aff"
+    },
+    "JC-202504-citibike-tripdata.csv.zip": {
+      "bytes": 2818397,
+      "sha256": "4a5f9ecf04410f8010fea27e6448e07061c0a40669424f8ce593b4737c6bf05e"
+    },
+    "JC-202505-citibike-tripdata.csv.zip": {
+      "bytes": 3096305,
+      "sha256": "86ac38dbd61e35dcee351f8280836d8164257238d97f18ec14ed9915b5ed2de7"
+    },
+    "JC-202506-citibike-tripdata.csv.zip": {
+      "bytes": 3493084,
+      "sha256": "a4f4fd5c3c92bffde1c950427582f635654dd29926dd53c458aa55598b1e8226"
+    },
+    "JC-202507-citibike-tripdata.csv.zip": {
+      "bytes": 3883467,
+      "sha256": "84f69ef475f460d7e7f76d35f46287d8cdffba85c5c81dcdfb3fd327ee52822d"
+    },
+    "JC-202508-citibike-tripdata.csv.zip": {
+      "bytes": 3654182,
+      "sha256": "908ebdebd8aec67dcf86d8afb13462070406569b1eb18ae623c596e163d21e7c"
+    },
+    "JC-202509-citibike-tripdata.csv.zip": {
+      "bytes": 4251679,
+      "sha256": "df0838152df101009227cc3f7eca312c9f10a67c9b39e33edbba279d9a1f2bbb"
+    },
+    "JC-202510-citibike-tripdata.zip": {
+      "bytes": 3599746,
+      "sha256": "117bee222d29447f350b5a2237e2cc0c1de26d13d39822901b2d0870906fe8a8"
+    },
+    "JC-202511-citibike-tripdata.csv.zip": {
+      "bytes": 2681589,
+      "sha256": "7bf7afa05c46af3fcfa3110debde385deeaf608ddd7072846130b17232c721fc"
+    },
+    "JC-202512-citibike-tripdata.csv.zip": {
+      "bytes": 1733900,
+      "sha256": "870665cc27edf8cbf7cf609f7f20ca22edfa46f7c0cdcaa0fb20280e4182991d"
+    }
+  }
+}

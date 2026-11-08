@@ -1,0 +1,36 @@
+{
+  "month": "2025-01",
+  "input_rows": 150699,
+  "invalid_time_rows": 0,
+  "rows_in_month_before_dedup": 50611,
+  "missing_ride_id_in_month": 0,
+  "duplicate_ride_id_in_month": 0,
+  "deduplicated_departures": 50611,
+  "hours": 744,
+  "zero_departure_hours": 5,
+  "rows_by_source_file": {
+    "JC-202501-citibike-tripdata.csv.zip": 50609,
+    "JC-202502-citibike-tripdata.csv.zip": 2
+  },
+  "time_warning": "Naive local wall timestamps; DST not resolved in this pilot",
+  "coverage_warning": "A zero count assumes the three source files cover this pilot month",
+  "source_file_rows": {
+    "JC-202412-citibike-tripdata.csv.zip": 54833,
+    "JC-202501-citibike-tripdata.csv.zip": 50611,
+    "JC-202502-citibike-tripdata.csv.zip": 45255
+  },
+  "source_files": {
+    "JC-202412-citibike-tripdata.csv.zip": {
+      "bytes": 2012198,
+      "sha256": "857869b3dc4ef85b9a9f4a6e13f9092070835a0a7b12a5140da652688ee9c530"
+    },
+    "JC-202501-citibike-tripdata.csv.zip": {
+      "bytes": 1742971,
+      "sha256": "85c2011b564d7b76653f464380ac1d61a93cd6e2abe1a46d103b58c447bb0ed4"
+    },
+    "JC-202502-citibike-tripdata.csv.zip": {
+      "bytes": 1608676,
+      "sha256": "0a7b88d9e1a4ba627f4b2b02739a62790bf35335151adb6658e32355dcd5b234"
+    }
+  }
+}

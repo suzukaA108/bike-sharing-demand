@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "train_end_exclusive": "2012-01-01",
+  "validation_end_exclusive": "2012-07-01",
+  "test_end_exclusive": "2013-01-01",
+  "history_hours": 168,
+  "forecast_horizon_hours": 1,
+  "missing_hour_policy": "Keep missing hours as NaN on a full hourly index; never assume zero demand or interpolate targets. Historical imputation and missingness indicators will be fitted on training data only.",
+  "evaluation": "Rolling one-step forecast using observations available before each target hour"
+}

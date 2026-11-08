@@ -1,0 +1,133 @@
+{
+  "source": "https://s3.amazonaws.com/tripdata/index.html",
+  "years": [
+    2024,
+    2025
+  ],
+  "files": [
+    {
+      "key": "JC-202401-citibike-tripdata.csv.zip",
+      "bytes": 1883296,
+      "year": 2024
+    },
+    {
+      "key": "JC-202402-citibike-tripdata.csv.zip",
+      "bytes": 1908683,
+      "year": 2024
+    },
+    {
+      "key": "JC-202403-citibike-tripdata.csv.zip",
+      "bytes": 2308314,
+      "year": 2024
+    },
+    {
+      "key": "JC-202404-citibike-tripdata.csv.zip",
+      "bytes": 2810050,
+      "year": 2024
+    },
+    {
+      "key": "JC-202405-citibike-tripdata.csv.zip",
+      "bytes": 3238096,
+      "year": 2024
+    },
+    {
+      "key": "JC-202406-citibike-tripdata.csv.zip",
+      "bytes": 4413867,
+      "year": 2024
+    },
+    {
+      "key": "JC-202407-citibike-tripdata.csv.zip",
+      "bytes": 4198201,
+      "year": 2024
+    },
+    {
+      "key": "JC-202408-citibike-tripdata.csv.zip",
+      "bytes": 3530848,
+      "year": 2024
+    },
+    {
+      "key": "JC-202409-citibike-tripdata.csv.zip",
+      "bytes": 4140046,
+      "year": 2024
+    },
+    {
+      "key": "JC-202410-citibike-tripdata.csv.zip",
+      "bytes": 4028203,
+      "year": 2024
+    },
+    {
+      "key": "JC-202411-citibike-tripdata.csv.zip",
+      "bytes": 2801836,
+      "year": 2024
+    },
+    {
+      "key": "JC-202412-citibike-tripdata.csv.zip",
+      "bytes": 2012198,
+      "year": 2024
+    },
+    {
+      "key": "JC-202501-citibike-tripdata.csv.zip",
+      "bytes": 1742971,
+      "year": 2025
+    },
+    {
+      "key": "JC-202502-citibike-tripdata.csv.zip",
+      "bytes": 1608676,
+      "year": 2025
+    },
+    {
+      "key": "JC-202503-citibike-tripdata.csv.zip",
+      "bytes": 2691428,
+      "year": 2025
+    },
+    {
+      "key": "JC-202504-citibike-tripdata.csv.zip",
+      "bytes": 2818397,
+      "year": 2025
+    },
+    {
+      "key": "JC-202505-citibike-tripdata.csv.zip",
+      "bytes": 3096305,
+      "year": 2025
+    },
+    {
+      "key": "JC-202506-citibike-tripdata.csv.zip",
+      "bytes": 3493084,
+      "year": 2025
+    },
+    {
+      "key": "JC-202507-citibike-tripdata.csv.zip",
+      "bytes": 3883467,
+      "year": 2025
+    },
+    {
+      "key": "JC-202508-citibike-tripdata.csv.zip",
+      "bytes": 3654182,
+      "year": 2025
+    },
+    {
+      "key": "JC-202509-citibike-tripdata.csv.zip",
+      "bytes": 4251679,
+      "year": 2025
+    },
+    {
+      "key": "JC-202510-citibike-tripdata.zip",
+      "bytes": 3599746,
+      "year": 2025
+    },
+    {
+      "key": "JC-202511-citibike-tripdata.csv.zip",
+      "bytes": 2681589,
+      "year": 2025
+    },
+    {
+      "key": "JC-202512-citibike-tripdata.csv.zip",
+      "bytes": 1733900,
+      "year": 2025
+    }
+  ],
+  "file_count": 24,
+  "compressed_bytes": 72529062,
+  "compressed_gib": 0.068,
+  "coverage_note": "Manifest only; files are not downloaded by this command."
+}

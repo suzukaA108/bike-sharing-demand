@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "timezone": "America/New_York",
+  "forecast_horizon_hours": 1,
+  "history_hours": 168,
+  "target": "departures",
+  "target_definition": "Citi Bike JC monthly-file service scope; trip starts per UTC hour, with target-hour calendar interpreted in America/New_York",
+  "ambiguous_dst_policy": "Drop trips with ambiguous naive local timestamps; set both UTC fall-back target hours to NaN and exclude from scoring",
+  "conflicting_duplicate_policy": "Exclude all ride IDs with conflicting started_at; keep first occurrence of other duplicates in sorted official archive and member order",
+  "zero_demand_policy": "Zero only after all 24 monthly source archives are present and ZIP-valid; possible reporting outages remain a limitation",
+  "folds": [
+    {
+      "name": "fold_1",
+      "train_start_utc": "2024-01-01T05:00:00Z",
+      "train_end_utc": "2024-07-01T04:00:00Z",
+      "validation_start_utc": "2024-07-01T04:00:00Z",
+      "validation_end_utc": "2024-10-01T04:00:00Z"
+    },
+    {
+      "name": "fold_2",
+      "train_start_utc": "2024-01-01T05:00:00Z",
+      "train_end_utc": "2024-10-01T04:00:00Z",
+      "validation_start_utc": "2024-10-01T04:00:00Z",
+      "validation_end_utc": "2025-01-01T05:00:00Z"
+    }
+  ],
+  "final_fit_start_utc": "2024-01-01T05:00:00Z",
+  "final_fit_end_utc": "2025-01-01T05:00:00Z",
+  "test_start_utc": "2025-01-01T05:00:00Z",
+  "test_end_utc": "2026-01-01T05:00:00Z",
+  "final_models_frozen_utc_date": "2026-11-08",
+  "final_mlp_epochs": 20,
+  "final_lstm_epochs": 26,
+  "final_models": ["naive_previous_hour", "naive_previous_week", "linear_regression", "random_forest", "linear_regression_weather", "random_forest_weather", "mlp", "lstm_168h"],
+  "evaluation": "One-step-ahead rolling forecast; 2024 used for model selection, 2025 used once for final holdout confirmation. Earlier exploratory code viewed 2025 metrics; this is not a pristine blind test."
+}

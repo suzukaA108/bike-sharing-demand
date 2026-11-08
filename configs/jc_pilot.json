@@ -1,0 +1,10 @@
+{
+  "source": "Citi Bike JC published monthly trip files",
+  "scope": "Trips published in JC monthly files; departures counted by started_at, not a city-boundary filter",
+  "pilot_month": "2025-01",
+  "required_files": ["JC-202412-citibike-tripdata.csv.zip", "JC-202501-citibike-tripdata.csv.zip", "JC-202502-citibike-tripdata.csv.zip"],
+  "time_convention": "Source timestamps are naive local wall time; pilot excludes DST transitions. Full-year UTC disambiguation remains unresolved.",
+  "target": "hourly departures",
+  "weather": "Historical weather investigation pending; not joined in pilot",
+  "production_split": "To be fixed after full data audit; UCI split is not reused"
+}

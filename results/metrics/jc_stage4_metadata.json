@@ -1,0 +1,20 @@
+{
+  "evaluation_scope": "2024 development folds only; 2025 excluded from fitting, selection, and error analysis",
+  "common_timestamp_policy": "Intersect scored timestamps across every model within each fold; all reported leaderboard metrics use this shared set.",
+  "common_rows": {
+    "fold_1": 2208,
+    "fold_2": 2039
+  },
+  "target_weather_policy": "Target-hour precipitation used only for post-hoc error grouping, never as a model input.",
+  "holiday_policy": "US federal holiday calendar applied to target-hour America/New_York local date.",
+  "models": [
+    "linear_regression",
+    "random_forest",
+    "naive_previous_hour",
+    "naive_previous_week",
+    "linear_regression_weather",
+    "random_forest_weather",
+    "mlp",
+    "lstm_168h"
+  ]
+}
