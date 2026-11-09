@@ -8,6 +8,7 @@
 
 ### 使用与发布边界
 
+- 仓库中的项目代码采用 [MIT License](../LICENSE)；该代码许可不延伸至 Citi Bike 行程记录或 Open-Meteo 天气数据。
 - Citi Bike 数据受官方 [Data Sharing Policy](https://www.citibikenyc.com/data-sharing-policy) 约束。仓库不分发原始压缩包或逐行行程，不暗示 Citi Bike 官方背书；保留来源归属。
 - Open-Meteo 免费 API 面向非商业用途，API 数据依其条款和 CC BY 4.0 进行署名。查看 [Open-Meteo Terms](https://open-meteo.com/en/terms) 和 API 文档；不要把当前免费 API 使用方式描述为可直接商用。
 - 本仓库只保留审计摘要、模型指标、聚合误差切片和图表。逐小时实际/预测明细、行程归档及天气缓存在 Git 忽略路径中。
