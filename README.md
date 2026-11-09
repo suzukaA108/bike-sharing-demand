@@ -51,6 +51,7 @@ jupyter notebook
 3. `04_jc_pytorch.ipynb`：PyTorch MLP 与 168 小时 LSTM。
 4. `05_jc_evaluation.ipynb`：共同样本模型比较、特征消融、误差切片。
 5. `06_jc_final_confirmation.ipynb`：只读取已保存的 2025 留出期结果，不重新训练。
+6. `07_jc_single_hour_replay.ipynb`：选择历史小时，重拟合冻结模型并回放单小时预测，与真实值作事后对照。
 
 `00_uci_prototype.ipynb` 是原始 UCI 方案的历史原型，不属于当前 JC 主线。
 
@@ -63,6 +64,7 @@ jupyter notebook
 - `python -m src.jc_torch_models`：运行 PyTorch 开发折验证。
 - `python -m src.jc_stage4`：统一开发期比较、消融和误差分析。
 - `python -m src.jc_final_eval`：仅在 2025 确认产物尚不存在时运行一次。该命令检测到已有最终结果时会拒绝覆盖。
+- `python -m src.jc_demo_prediction`：默认回放数据中最新的历史小时；可用 `--target-local "2025-12-31 23:00"` 指定已有的纽约本地小时。
 
 运行测试：`python -m unittest discover -s tests -v`。
 
@@ -83,6 +85,7 @@ results/          汇总审计、指标、误差分析和图表
 
 - 时间序列使用扩展窗口验证，不随机打乱；滚动一步预测只使用预测时刻之前已发生的观测。
 - 历史天气产品不等同于当时已发布的天气预报，当前实验是离线回测假设，不可直接宣称已验证实时部署性能。
+- 单小时回放使用的数据截至 2025-12-31，不是当前实时预测；没有持续数据管道。未来天气预报是可选增强，若使用目标小时天气，只能使用当时可获得的预报。
 - 2025 留出期结果必须与“曾被早期探索查看”的事实一起呈现。
 - 本项目代码采用 [MIT License](LICENSE)。该许可不涵盖 Citi Bike 行程数据或 Open-Meteo 数据；数据使用和署名要求见 [data/README.md](data/README.md)。
 - GitHub 远程仓库已创建并公开发布。
